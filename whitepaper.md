@@ -89,9 +89,9 @@ The reward for validators is the fees collected from transactions in each block.
 
 Some parts of the gas fee will also be rewarded to relayers for Cross-Chain communication. Please refer to the “[Relayers](#relayers)” section below.
 
-# Token Economy (x20 and x722)
+# Token Economy (NRC20 and NRC722)
 
-Next Smart Chain share the same token universe for X20 tokens. This defines:
+Next Smart Chain share the same token universe for NRC20 tokens. This defines:
 
 1. The same token can circulate on Ethereum-compatible blockchain, and flow between them bi-directionally via a cross-chain communication mechanism.
 2. The total circulation of the same token should be managed across the two networks, i.e. the total effective supply of a token should be the sum of the token’s total effective supply.
@@ -113,7 +113,7 @@ The  cross-chain transfer is discussed in a later section, but for NEXT to NEXT 
 
 ## Other Tokens
 
-NSC is Ethereum compatible, it is natural to support ERC20 tokens and Smart Contracts on NSC, which here is called “**X20**” (with the real name to be introduced by the future Xs). X20 may be “Enhanced” by adding a few more methods to expose more information, such as token denomination, decimal precision definition and the owner address who can decide the Token Binding across the chains. 
+NSC is Ethereum compatible, it is natural to support ERC20 tokens and Smart Contracts on NSC, which here is called “**NRC20**” (with the real name to be introduced by the future NRCs). NRC20 may be “Enhanced” by adding a few more methods to expose more information, such as token denomination, decimal precision definition and the owner address who can decide the Token Binding across the chains. 
 
 # Cross-Chain Transfer and Communication
 Cross-chain communication is the key foundation to allow the community to take advantage of the dual chain structure:
